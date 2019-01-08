@@ -9,13 +9,13 @@ Add Less and Less module support to
 ## Installation
 
 ```
-npm install --save-dev react-app-rewire-less-modules
+npm install --save-dev @joiner/react-app-rewire-less-modules
 ```
 
 OR
 
 ```
-yarn add --dev react-app-rewire-less-modules
+yarn add --dev @joiner/react-app-rewire-less-modules
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ In your react-app-rewired configuration:
 ```javascript
 /* config-overrides.js */
 
-const rewireLess = require("react-app-rewire-less-modules");
+const rewireLess = require("@joiner/react-app-rewire-less-modules");
 
 module.exports = function override(config, env) {
   

@@ -1,5 +1,5 @@
 const path = require("path");
-const { getLoader, loaderNameMatches } = require("react-app-rewired");
+const { getLoader, loaderNameMatches } = require("./utils");
 
 const lessExtension = /\.less$/;
 const lessModuleExtension = /\.module.less$/;
